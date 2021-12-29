@@ -16,6 +16,7 @@ export default function Home() {
       email,
       password,
     }
+    
     await signIn(data)
   }
 
