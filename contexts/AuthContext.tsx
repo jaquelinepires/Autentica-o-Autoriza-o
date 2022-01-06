@@ -54,7 +54,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   }, [])
 
-
   useEffect(() => {
     const { 'nextauth.token': token } = parseCookies()
 

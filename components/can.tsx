@@ -1,5 +1,3 @@
-
-  
 import { ReactNode } from 'react'
 import { useCan } from '../hooks/useCan'
 
